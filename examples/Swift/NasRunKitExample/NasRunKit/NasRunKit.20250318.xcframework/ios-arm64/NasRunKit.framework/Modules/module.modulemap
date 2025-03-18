@@ -1,0 +1,11 @@
+framework module NasRunKit {
+  umbrella header "NasRunKit.h"
+  export *
+
+  module * { export * }
+}
+
+module NasRunKit.Swift {
+  header "NasRunKit-Swift.h"
+  requires objc
+}

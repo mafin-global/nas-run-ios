@@ -1,0 +1,257 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "NasRunKit",
+    "printedName": "NasRunKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NasRunKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NasRunKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NasRunKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "NasRunKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "NasRunKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NasRun",
+        "printedName": "NasRun",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "run",
+            "printedName": "run(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NasRunKit@objc(cs)NasRun(cm)run:",
+            "mangledName": "$s9NasRunKit0aB0C3runyySSFZ",
+            "moduleName": "NasRunKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NasRun",
+                "printedName": "NasRunKit.NasRun",
+                "usr": "c:@M@NasRunKit@objc(cs)NasRun"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NasRunKit@objc(cs)NasRun(im)init",
+            "mangledName": "$s9NasRunKit0aB0CACycfc",
+            "moduleName": "NasRunKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NasRunKit@objc(cs)NasRun",
+        "mangledName": "$s9NasRunKit0aB0C",
+        "moduleName": "NasRunKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "NasRunKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "NasRunKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "NasRunKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "NasRunKit"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/youngchulpark\/@Project\/nas\/nas-run-sdk-ios\/NasRunKit\/Common\/Common.swift",
+      "kind": "StringLiteral",
+      "offset": 180,
+      "length": 28,
+      "value": "\"XCODE_RUNNING_FOR_PREVIEWS\""
+    },
+    {
+      "filePath": "\/Users\/youngchulpark\/@Project\/nas\/nas-run-sdk-ios\/NasRunKit\/Common\/Common.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/youngchulpark\/@Project\/nas\/nas-run-sdk-ios\/NasRunKit\/NasRunClass.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/youngchulpark\/@Project\/nas\/nas-run-sdk-ios\/NasRunKit\/NasRunClass.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/youngchulpark\/@Project\/nas\/nas-run-sdk-ios\/NasRunKit\/NasRunClass.swift",
+      "kind": "StringLiteral",
+      "offset": 372,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/youngchulpark\/@Project\/nas\/nas-run-sdk-ios\/NasRunKit\/NasRunClass.swift",
+      "kind": "StringLiteral",
+      "offset": 405,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
