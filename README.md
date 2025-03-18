@@ -55,7 +55,7 @@
   ```swift
   import NasRunKit
 
-  NasRun.run("광고 KEY를 입력하세요")
+  NasRun.run("32자리 광고 KEY")
   ```
   
 - Objective C
