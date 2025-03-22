@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C86C1B052D8E8A6C00230CE6 /* NasRunKit in Frameworks */ = {isa = PBXBuildFile; productRef = C86C1B042D8E8A6C00230CE6 /* NasRunKit */; };
 		C8825C942D88776900CE85F4 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8825C932D88776900CE85F4 /* AdSupport.framework */; };
 		C8825C962D88776D00CE85F4 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8825C952D88776D00CE85F4 /* AppTrackingTransparency.framework */; };
 		C8825C982D88777200CE85F4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8825C972D88777200CE85F4 /* Security.framework */; };
@@ -47,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C86C1B052D8E8A6C00230CE6 /* NasRunKit in Frameworks */,
 				C8825C9A2D88777D00CE85F4 /* CryptoKit.framework in Frameworks */,
 				C8825C982D88777200CE85F4 /* Security.framework in Frameworks */,
 				C8825C962D88776D00CE85F4 /* AppTrackingTransparency.framework in Frameworks */,
@@ -105,6 +107,7 @@
 			);
 			name = NasRunKitObjCExample;
 			packageProductDependencies = (
+				C86C1B042D8E8A6C00230CE6 /* NasRunKit */,
 			);
 			productName = NasRunKitObjCExample;
 			productReference = C8825C6C2D88770900CE85F4 /* NasRunKitObjCExample.app */;
@@ -133,6 +136,9 @@
 			);
 			mainGroup = C8825C632D88770900CE85F4;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C86C1B032D8E8A6C00230CE6 /* XCRemoteSwiftPackageReference "nas-run-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C8825C6D2D88770900CE85F4 /* Products */;
 			projectDirPath = "";
@@ -358,6 +364,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C86C1B032D8E8A6C00230CE6 /* XCRemoteSwiftPackageReference "nas-run-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:mafin-global/nas-run-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C86C1B042D8E8A6C00230CE6 /* NasRunKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C86C1B032D8E8A6C00230CE6 /* XCRemoteSwiftPackageReference "nas-run-ios" */;
+			productName = NasRunKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C8825C642D88770900CE85F4 /* Project object */;
 }
