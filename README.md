@@ -1,9 +1,11 @@
 # NasRun iOS 연동 가이드
 
+[![GitHub release](https://img.shields.io/github/tag/mafin-global/nas-run-ios.svg)](https://github.com/mafin-global/nas-run-ios)
+
 ## 목차
 - [1. 개요](#1-개요)
 - [2. 설치](#2-설치)
-  - [2-1. SDK 파일 추가](#2-1-sdk-파일-추가)
+  - [2-1. NasRunKit 패키지 추가](#2-1-NasRunKit-패키지-추가)
   - [2-2. 라이브러리 추가](#2-2-라이브러리-추가)
   - [2-3. 추적 권한 허용 표시 문구 설정](#2-3-추적-권한-허용-표시-문구-설정)
   - [2-4. Privacy Manifest 설정](#2-4-privacy-manifest-설정)
@@ -19,15 +21,26 @@
 
 ## 2. 설치
 
-### 2-1. SDK 파일 추가
-`/sdk` 폴더에 있는 `NasRunKit.xcframework` 파일을 프로젝트에 추가합니다.
+### 2-1. NasRunKit 패키지 추가
+`File` > `Add Package Dependency...` 메뉴를 선택합니다.
 
-![SDK 파일 추가](img/add_sdk_file.png)
+![Add Package Dependencies...](img/menu_file_add_package.png)
+
+우측 상단 검색에 `https://github.com/mafin-global/nas-run-ios` 를 입력하고 `Add Package` 버튼을 클릭합니다.
+
+![Add Package 1](img/add_package_1.png)
+
+`Add to Target` 이 개발 중인 프로젝트가 맞는지 확인하고 `Add Package` 버튼을 클릭합니다.
+
+![Add Package 2](img/add_package_2.png)
+
+`NasRunKit` 패키지가 정상적으로 추가되었는지 확인합니다.
+
+![Confirm Added Package](img/confirm_added_package.png)
 
 ### 2-2. 라이브러리 추가
 `프로젝트 설정` > `Build Phases` > `Link Binary With Libraries` 에서 다음 라이브러리를 추가합니다.
 
-- NasRunKit.xcframework
 - AppTrackingTransparency.framework
 - AdSupport.framework
 - CryptoKit.framework

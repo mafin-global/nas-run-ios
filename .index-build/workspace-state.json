@@ -1,0 +1,24 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "nas-run-ios",
+          "kind" : "root",
+          "location" : "/Users/youngchulpark/@Project/nas/nas-run-ios",
+          "name" : "nas-run-ios"
+        },
+        "path" : "/Users/youngchulpark/@Project/nas/nas-run-ios/sdk/NasRunKit.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "NasRunKit"
+      }
+    ],
+    "dependencies" : [
+
+    ]
+  },
+  "version" : 6
+}
