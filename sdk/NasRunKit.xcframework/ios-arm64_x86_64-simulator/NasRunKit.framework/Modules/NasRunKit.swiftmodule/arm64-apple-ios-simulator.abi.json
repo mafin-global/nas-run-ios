@@ -206,6 +206,13 @@
         "printedName": "CommonCrypto",
         "declKind": "Import",
         "moduleName": "NasRunKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NasRunKit"
       }
     ],
     "json_format_version": 8
@@ -228,28 +235,28 @@
     {
       "filePath": "\/Users\/youngchulpark\/@Project\/nas\/nas-run-sdk-ios\/NasRunKit\/NasRunClass.swift",
       "kind": "StringLiteral",
-      "offset": 257,
+      "offset": 270,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/youngchulpark\/@Project\/nas\/nas-run-sdk-ios\/NasRunKit\/NasRunClass.swift",
       "kind": "StringLiteral",
-      "offset": 301,
+      "offset": 314,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/youngchulpark\/@Project\/nas\/nas-run-sdk-ios\/NasRunKit\/NasRunClass.swift",
       "kind": "StringLiteral",
-      "offset": 372,
+      "offset": 385,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/youngchulpark\/@Project\/nas\/nas-run-sdk-ios\/NasRunKit\/NasRunClass.swift",
       "kind": "StringLiteral",
-      "offset": 405,
+      "offset": 418,
       "length": 2,
       "value": "\"\""
     }
