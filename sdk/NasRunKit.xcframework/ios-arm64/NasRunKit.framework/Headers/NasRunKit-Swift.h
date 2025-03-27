@@ -307,6 +307,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC9NasRunKit6NasRun")
 @interface NasRun : NSObject
 + (void)run:(NSString * _Nonnull)adKey;
++ (void)run:(NSString * _Nonnull)adKey handler:(void (^ _Nonnull)(NSInteger))handler;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

@@ -15,6 +15,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @objc public class NasRun : ObjectiveC.NSObject {
   @objc public static func run(_ adKey: Swift.String)
+  @objc public static func run(_ adKey: Swift.String, handler: @escaping (Swift.Int) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
 }
